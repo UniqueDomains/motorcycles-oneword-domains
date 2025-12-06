@@ -5,7 +5,7 @@
 
 We constantly sweep the web to catalog the highest potential .MOTORCYCLES one-word domains still available to buy.
 
-This dataset contains 4,833 .MOTORCYCLES one word domains with availability, attractiveness and demand scores.
+This dataset contains 4,832 .MOTORCYCLES one word domains with availability, attractiveness and demand scores.
 
 If you want to search & filters the complete database of [.MOTORCYCLES one word domains](https://unique.domains?utm_source=github&utm_medium=dataset&utm_campaign=motorcycles-oneword-domains&utm_content=description.top) (4,834) and analyse SEO, demand and valuation, we've build unique.domains, a SaaS designed for domain investors and solopreneurs.
 
@@ -21,7 +21,7 @@ If you want to search & filters the complete database of [.MOTORCYCLES one word 
 
 | Domain                 | Status    | Attract. | Demand | Length | Registrar | Created | Expires |
 | ---------------------- | --------- | -------- | ------ | ------ | --------- | ------- | ------- |
-| aaron.motorcycles      | available | 88       | 32%    | 5      |           |         |         |
+| aaron.motorcycles      | premium   | 88       | 32%    | 5      |           |         |         |
 | abactinal.motorcycles  | available | 50       | 1%     | 9      |           |         |         |
 | abaft.motorcycles      | available | 43       | 2%     | 5      |           |         |         |
 | abandoned.motorcycles  | available | 58       | 7%     | 9      |           |         |         |
@@ -31,7 +31,7 @@ If you want to search & filters the complete database of [.MOTORCYCLES one word 
 | abatic.motorcycles     | available | 54       | 2%     | 6      |           |         |         |
 | abaxial.motorcycles    | available | 54       | 2%     | 7      |           |         |         |
 | abbatial.motorcycles   | available | 50       | 1%     | 8      |           |         |         |
-| abc.motorcycles        | available | 102      | 41%    | 3      |           |         |         |
+| abc.motorcycles        | premium   | 102      | 41%    | 3      |           |         |         |
 | abdicable.motorcycles  | available | 50       | 1%     | 9      |           |         |         |
 | abdominal.motorcycles  | available | 82       | 5%     | 9      |           |         |         |
 | abdominous.motorcycles | available | 56       | 1%     | 10     |           |         |         |
