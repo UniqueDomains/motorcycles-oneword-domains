@@ -1,22 +1,22 @@
-# Available .MOTORCYCLES One-Word Domains (5,621,926)
+# Available .MOTORCYCLES One-Word Domains (9,758)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
-  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-9%2C757%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-5%2C621%2C926%20domains-6f42c1">
+  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-9%2C758%20rows-8250df">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-9%2C758%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
 
-Daily-updated public extract of available and resale .motorcycles one-word domains from Unique Domains.
+Daily-updated dataset of available and resale .motorcycles one-word domains from Unique Domains.
 
-> **Important:** this repository is a **public 9,757-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **5,621,926 domains** on the canonical page below.
+> **Note:** this repository currently mirrors the full live catalog for this exact search.
+> Unique Domains counts can still change as the search refreshes.
 
-**Public extract:** 9,757 rows · **Live catalog:** 5,621,926 domains
+**Public extract:** 9,758 rows · **Live catalog:** 9,758 domains
 
-**Last updated:** 2026-04-10  
+**Last updated:** 2026-04-12  
 **Canonical page:** `https://unique.domains/domains/tld/motorcycles`  
 **Best for:** founders, investors, studios
 
@@ -43,8 +43,8 @@ This repository is the public extract for Unique Domains' .MOTORCYCLES one-word 
 
 ### Files
 
-- `motorcycles.csv` — public CSV extract (9,757 rows)
-- `motorcycles.json` — public JSON extract (9,757 rows)
+- `motorcycles.csv` — public CSV extract (9,758 rows)
+- `motorcycles.json` — public JSON extract (9,758 rows)
 - `DATA_DICTIONARY.md` — field definitions for the exported files
 - `METHODOLOGY.md` — scope, refresh policy, and caveats
 - `CHANGELOG.md` — latest snapshot metadata
@@ -71,18 +71,18 @@ print(df.head())
 | enjoy.motorcycles      | resell    | —         | —             | 88             | 66     | 5      | Spaceship, Inc.                              |
 | easy.motorcycles       | premium   | $812.50   | $20.99        | 128            | 68     | 4      | name.com                                     |
 | athletics.motorcycles  | available | $19.98    | —             | 69             | 52     | 9      | namecheap                                    |
-| fantastic.motorcycles  | resell    | —         | —             | 88             | 63     | 9      | GoDaddy Online Services Cayman Islands Ltd.  |
+| fantastic.motorcycles  | resell    | —         | —             | 88             | 62     | 9      | GoDaddy Online Services Cayman Islands Ltd.  |
 | nationwide.motorcycles | premium   | $2,500    | $2,500        | 76             | 66     | 10     | name.com                                     |
-| genius.motorcycles     | available | $1.99     | $20.99        | 98             | 47     | 6      | name.com                                     |
-| stellar.motorcycles    | resell    | —         | —             | 78             | 50     | 7      | Spaceship, Inc.                              |
+| genius.motorcycles     | available | $1.99     | $20.99        | 98             | 45     | 6      | name.com                                     |
+| stellar.motorcycles    | resell    | —         | —             | 78             | 49     | 7      | Spaceship, Inc.                              |
 | power.motorcycles      | premium   | $845      | $15.73        | 98             | 62     | 5      | namecheap                                    |
-| wizard.motorcycles     | available | $1.99     | $20.99        | 118            | 46     | 6      | name.com                                     |
+| creator.motorcycles    | available | $1.99     | $20.99        | 70             | 45     | 7      | name.com                                     |
 | just.motorcycles       | resell    | —         | —             | 150            | 48     | 4      | Spaceship, Inc.                              |
-| data.motorcycles       | premium   | $845      | $15.73        | 70             | 60     | 4      | namecheap                                    |
-| map.motorcycles        | available | $19.98    | —             | 78             | 45     | 3      | namecheap                                    |
-| community.motorcycles  | resell    | —         | —             | 76             | 47     | 9      | Xiamen ChinaSource Internet Service Co., Ltd |
 | free.motorcycles       | premium   | $812.50   | $20.99        | 88             | 59     | 4      | name.com                                     |
-| mix.motorcycles        | available | $1.99     | $20.99        | 66             | 45     | 3      | name.com                                     |
+| forge.motorcycles      | available | $1.99     | $20.99        | 62             | 45     | 5      | name.com                                     |
+| community.motorcycles  | resell    | —         | —             | 76             | 47     | 9      | Xiamen ChinaSource Internet Service Co., Ltd |
+| cloud.motorcycles      | premium   | $2,600    | $2,600        | 70             | 59     | 5      | namecheap                                    |
+| mix.motorcycles        | available | $1.99     | $20.99        | 66             | 44     | 3      | name.com                                     |
 | token.motorcycles      | resell    | —         | —             | 114            | 46     | 5      | Dynadot LLC                                  |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 9,757-row public sample | 5,621,926 live domains                           |
+| 9,758-row public sample | 9,758 live domains                               |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .MOTORCYCLES One-Word Domains*. Version 2026-04-10. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .MOTORCYCLES One-Word Domains*. Version 2026-04-12. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
