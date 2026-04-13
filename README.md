@@ -78,11 +78,11 @@ print(df.head())
 | power.motorcycles      | premium   | $845      | $15.73        | 98             | 62     | 5      | namecheap                                    |
 | creator.motorcycles    | available | $1.99     | $20.99        | 70             | 45     | 7      | name.com                                     |
 | just.motorcycles       | resell    | —         | —             | 150            | 48     | 4      | Spaceship, Inc.                              |
-| free.motorcycles       | premium   | $812.50   | $20.99        | 88             | 59     | 4      | name.com                                     |
+| cloud.motorcycles      | premium   | $2,600    | $2,600        | 70             | 59     | 5      | namecheap                                    |
 | mix.motorcycles        | available | $1.99     | $20.99        | 66             | 45     | 3      | name.com                                     |
 | community.motorcycles  | resell    | —         | —             | 76             | 47     | 9      | Xiamen ChinaSource Internet Service Co., Ltd |
-| cloud.motorcycles      | premium   | $2,600    | $2,600        | 70             | 59     | 5      | namecheap                                    |
-| forge.motorcycles      | available | $1.99     | $20.99        | 62             | 45     | 5      | name.com                                     |
+| ace.motorcycles        | premium   | $812.50   | $20.99        | 88             | 57     | 3      | name.com                                     |
+| forge.motorcycles      | available | $1.99     | $20.99        | 62             | 44     | 5      | name.com                                     |
 | token.motorcycles      | resell    | —         | —             | 114            | 46     | 5      | Dynadot LLC                                  |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
