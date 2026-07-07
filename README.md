@@ -14,10 +14,10 @@ Daily-updated public extract of available and resale .motorcycles one-word domai
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
 > The full live catalog for this exact search currently contains **12,746 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 12,746 domains · **Median ask:** $88.65 · **High-demand under $2,500:** 0
+**Public extract:** 1,000 rows · **Live catalog:** 12,746 domains · **Median ask:** $152.99 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-26  
-**Canonical page:** `https://unique.domains/domains/tld/motorcycles`  
+**Last updated:** 2026-07-07
+**Canonical page:** `https://unique.domains/domains/tld/motorcycles`
 **Best for:** founders, investors, studios
 
 ---
@@ -43,13 +43,13 @@ This repository is the public extract for Unique Domains' .MOTORCYCLES one-word 
 
 ### Files
 
-- `motorcycles.csv` — public CSV extract (1,000 rows)
-- `motorcycles.json` — public JSON extract (1,000 rows)
-- `DATA_DICTIONARY.md` — field definitions for the exported files
-- `METHODOLOGY.md` — scope, refresh policy, and caveats
-- `CHANGELOG.md` — latest snapshot metadata
-- `CITATION.cff` — machine-readable dataset citation metadata
-- `LICENSE` — terms for the public extract
+- `motorcycles.csv`, public CSV extract (1,000 rows)
+- `motorcycles.json`, public JSON extract (1,000 rows)
+- `DATA_DICTIONARY.md`, field definitions for the exported files
+- `METHODOLOGY.md`, scope, refresh policy, and caveats
+- `CHANGELOG.md`, latest snapshot metadata
+- `CITATION.cff`, machine-readable dataset citation metadata
+- `LICENSE`, terms for the public extract
 
 ## 🧭 Quick start
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain                   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar       |
-| ------------------------ | --------- | --------- | ------------- | -------------- | ------ | ------ | --------------- |
-| Acup.motorcycles         | available | $19.98    | —             | 80             | 5      | 5      | namecheap       |
-| WiFi.motorcycles         | available | $19.98    | —             | 83             | 37     | 5      | namecheap       |
-| barup.motorcycles        | available | $1.99     | —             | 82             | 2      | 6      | name.com        |
-| forces.motorcycles       | available | $1.99     | —             | 82             | 12     | 6      | name.com        |
-| edamame.motorcycles      | available | $1.99     | —             | 80             | 9      | 7      | name.com        |
-| QandA.motorcycles        | available | $19.98    | —             | 80             | 10     | 7      | namecheap       |
-| explore.motorcycles      | premium   | —         | —             | 84             | 41     | 7      | —               |
-| dogsick.motorcycles      | available | $1.99     | —             | 90             | 1      | 7      | name.com        |
-| leaveon.motorcycles      | available | $1.99     | —             | 80             | 1      | 8      | name.com        |
-| makers.motorcycles       | available | $1.99     | —             | 62             | 67     | 6      | name.com        |
-| agents.motorcycles       | resell    | —         | —             | 56             | 50     | 6      | Spaceship, Inc. |
-| CocaCola.motorcycles     | premium   | $2,800    | $2,800        | 92             | 82     | 9      | namecheap       |
-| lets.motorcycles         | available | $1.99     | —             | 77             | 39     | 4      | name.com        |
-| hotels.motorcycles       | premium   | $812.50   | —             | 64             | 82     | 6      | name.com        |
-| nets.motorcycles         | premium   | $2,500    | —             | 54             | 81     | 4      | name.com        |
-| neuroscience.motorcycles | available | $1.99     | —             | 80             | 37     | 12     | name.com        |
-| donuts.motorcycles       | premium   | $2,500    | —             | 54             | 62     | 6      | name.com        |
-| letsgo.motorcycles       | available | $1.99     | —             | 57             | 31     | 7      | name.com        |
-| travelers.motorcycles    | premium   | $2,500    | —             | 58             | 61     | 9      | name.com        |
-| cams.motorcycles         | available | $1.99     | —             | 52             | 29     | 4      | name.com        |
+| domain               | status    | ask_price | renewal_price | attractiveness | demand | length | registrar       |
+| -------------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------------- |
+| half.motorcycles     | available | $1.99     | $15.75        | high           | low    | 4      | namesilo        |
+| aim.motorcycles      | available | $1.99     | $15.75        | high           | low    | 3      | namesilo        |
+| pride.motorcycles    | resell    | —         | —             | high           | low    | 5      | Spaceship, Inc. |
+| any.motorcycles      | premium   | $812.50   | —             | high           | medium | 3      | name.com        |
+| ala.motorcycles      | available | $1.99     | $15.75        | high           | low    | 3      | namesilo        |
+| police.motorcycles   | resell    | —         | —             | high           | low    | 6      | Porkbun, LLC    |
+| art.motorcycles      | premium   | $2,600    | $2,600        | high           | medium | 3      | namecheap       |
+| beg.motorcycles      | available | $1.99     | $15.75        | medium         | low    | 3      | namesilo        |
+| purchase.motorcycles | resell    | —         | —             | medium         | low    | 8      | Spaceship, Inc. |
+| ask.motorcycles      | premium   | $2,500    | —             | high           | medium | 3      | name.com        |
+| bus.motorcycles      | available | $1.99     | $15.75        | high           | low    | 3      | namesilo        |
+| bag.motorcycles      | premium   | $812.50   | —             | high           | low    | 3      | name.com        |
+| cup.motorcycles      | available | $1.99     | —             | high           | low    | 3      | name.com        |
+| car.motorcycles      | premium   | $2,600    | $2,600        | high           | medium | 3      | namecheap       |
+| dig.motorcycles      | available | $1.99     | $15.75        | high           | low    | 3      | namesilo        |
+| fan.motorcycles      | premium   | $812.50   | —             | high           | low    | 3      | name.com        |
+| how.motorcycles      | available | $1.99     | —             | high           | low    | 3      | name.com        |
+| hub.motorcycles      | premium   | $812.50   | —             | high           | medium | 3      | name.com        |
+| hug.motorcycles      | available | $1.99     | —             | high           | low    | 3      | name.com        |
+| job.motorcycles      | premium   | $812.50   | —             | high           | low    | 3      | name.com        |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -105,27 +105,27 @@ If this sample already feels useful, Unique Domains is where the exact search be
 
 ## 🧱 Field summary
 
-- `domain` — Fully qualified domain name.
-- `status` — Current acquisition state for the domain in the public extract.
-- `purchase_price` — Visible purchase price when available.
-- `renewal_price` — Visible renewal price when available.
-- `attractiveness` — Composite naming score used as a decision-support signal.
-- `demand` — Relative buyer-pressure score when available.
-- `length` — Character count without the TLD.
-- `registrar` — Registrar name when known.
-- `created_at` — Creation timestamp when known.
-- `expires_at` — Expiry timestamp when known.
+- `domain`, Fully qualified domain name.
+- `status`, Current acquisition state for the domain in the public extract.
+- `purchase_price`, Visible purchase price when available.
+- `renewal_price`, Visible renewal price when available.
+- `attractiveness`, Public composite naming band used as a decision-support signal.
+- `demand`, Public buyer-pressure band when available.
+- `length`, Character count without the TLD.
+- `registrar`, Registrar name when known.
+- `created_at`, Creation timestamp when known.
+- `expires_at`, Expiry timestamp when known.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-These domains are all one-word names on the .motorcycles extension, which makes the set highly specific by construction. The selection ranges from direct dictionary-style words to broader brandable terms such as WiFi.motorcycles, finals.motorcycles, ladies.motorcycles, and popup.motorcycles. For founders, the main question is whether the word is memorable, relevant enough for a motorcycle audience, and easy to say without explanation. For investors, the key test is narrower: whether the word has clear commercial meaning, enough category fit to attract end-user demand, and an ask that leaves room for a sensible resale outcome. The median ask in this set is 88.65.
+This list of one-word .motorcycles domains spans gear, lifestyle, travel, and niche interest terms, sized for riders, clubs, dealers, and motorcycle-focused brands. Pricing across the set centers near $153, giving a clear reference point when comparing individual asks. When narrowing this selection, weigh renewal cost, brandability, and how directly each word signals a motorcycle audience — shorter, plain-language names tend to read as more ownable and easier to spell than compound or technical terms.
 
-- All names in this set use the .motorcycles extension
-- Median ask across the selection is 88.65
-- Prioritize words with obvious motorcycle or mobility fit
-- Be cautious with weak relevance or unclear brand meaning
+- 12,746 one-word .motorcycles domains in this selection
+- Median asking price near $153 across the set
+- Names span gear, lifestyle, travel, and niche motorcycle themes
+- Updated daily to keep pricing current across the list
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .MOTORCYCLES One-Word Domains*. Version 2026-05-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .MOTORCYCLES One-Word Domains*. Version 2026-07-07. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
