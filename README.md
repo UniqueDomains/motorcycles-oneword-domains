@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .motorcycles one-word domai
 
 **Public extract:** 1,000 rows · **Live catalog:** 25,478 domains · **Median ask:** $73.83 · **High-demand under $2,500:** 38
 
-**Last updated:** 2026-09-15
+**Last updated:** 2026-09-16
 **Canonical page:** `https://unique.domains/domains/tld/motorcycles`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain                | status    | ask_price | renewal_price | attractiveness | demand | length | registrar       |
-| --------------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------------- |
-| half.motorcycles      | available | $1.99     | $15.75        | high           | low    | 4      | namesilo        |
-| period.motorcycles    | available | $1.99     | —             | high           | low    | 6      | name.com        |
-| action.motorcycles    | available | $1.99     | $15.75        | high           | medium | 6      | namesilo        |
-| something.motorcycles | available | $1.99     | —             | high           | low    | 9      | name.com        |
-| aim.motorcycles       | available | $1.99     | $15.75        | high           | low    | 3      | namesilo        |
-| pride.motorcycles     | resell    | —         | —             | high           | low    | 5      | Spaceship, Inc. |
-| any.motorcycles       | premium   | $812.50   | —             | high           | medium | 3      | name.com        |
-| ala.motorcycles       | available | $1.99     | $15.75        | high           | low    | 3      | namesilo        |
-| police.motorcycles    | resell    | —         | —             | high           | low    | 6      | Porkbun, LLC    |
-| art.motorcycles       | premium   | $2,600    | $2,600        | high           | medium | 3      | namecheap       |
-| beg.motorcycles       | available | $1.99     | $15.75        | medium         | low    | 3      | namesilo        |
-| purchase.motorcycles  | resell    | —         | —             | medium         | low    | 8      | Spaceship, Inc. |
-| ask.motorcycles       | premium   | $2,500    | —             | high           | medium | 3      | name.com        |
-| bus.motorcycles       | available | $1.99     | $15.75        | high           | low    | 3      | namesilo        |
-| bag.motorcycles       | premium   | $812.50   | —             | high           | low    | 3      | name.com        |
-| cup.motorcycles       | available | $1.80     | $21.98        | medium         | low    | 3      | namecheap       |
-| car.motorcycles       | premium   | $2,600    | $2,600        | high           | medium | 3      | namecheap       |
-| cxv.motorcycles       | available | $1.80     | $19.98        | low            | low    | 3      | namecheap       |
-| fan.motorcycles       | premium   | $812.50   | —             | high           | low    | 3      | name.com        |
-| dig.motorcycles       | available | $1.99     | $15.75        | high           | low    | 3      | namesilo        |
+| domain               | status    | ask_price | renewal_price | attractiveness | demand | length | registrar       |
+| -------------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------------- |
+| aim.motorcycles      | available | $1.99     | $15.75        | high           | low    | 3      | namesilo        |
+| pride.motorcycles    | resell    | —         | —             | high           | low    | 5      | Spaceship, Inc. |
+| any.motorcycles      | premium   | $812.50   | —             | high           | medium | 3      | name.com        |
+| ala.motorcycles      | available | $1.99     | $15.75        | high           | low    | 3      | namesilo        |
+| police.motorcycles   | resell    | —         | —             | high           | low    | 6      | Porkbun, LLC    |
+| art.motorcycles      | premium   | $2,600    | $2,600        | high           | medium | 3      | namecheap       |
+| beg.motorcycles      | available | $1.99     | $15.75        | medium         | low    | 3      | namesilo        |
+| purchase.motorcycles | resell    | —         | —             | medium         | low    | 8      | Spaceship, Inc. |
+| ask.motorcycles      | premium   | $2,500    | —             | high           | medium | 3      | name.com        |
+| bus.motorcycles      | available | $1.99     | $15.75        | high           | low    | 3      | namesilo        |
+| bag.motorcycles      | premium   | $812.50   | —             | high           | low    | 3      | name.com        |
+| cup.motorcycles      | available | $1.80     | $21.98        | medium         | low    | 3      | namecheap       |
+| car.motorcycles      | premium   | $2,600    | $2,600        | high           | medium | 3      | namecheap       |
+| cxv.motorcycles      | available | $1.80     | $19.98        | low            | low    | 3      | namecheap       |
+| fan.motorcycles      | premium   | $812.50   | —             | high           | low    | 3      | name.com        |
+| dig.motorcycles      | available | $1.99     | $15.75        | high           | low    | 3      | namesilo        |
+| hub.motorcycles      | premium   | $812.50   | —             | high           | medium | 3      | name.com        |
+| how.motorcycles      | available | $1.99     | —             | high           | low    | 3      | name.com        |
+| job.motorcycles      | premium   | $812.50   | —             | high           | low    | 3      | name.com        |
+| hug.motorcycles      | available | $1.99     | —             | high           | low    | 3      | name.com        |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -115,6 +115,7 @@ If this sample already feels useful, Unique Domains is where the exact search be
 - `registrar`, Registrar name when known.
 - `created_at`, Creation timestamp when known.
 - `expires_at`, Expiry timestamp when known.
+- `status_verified_at`, When status was last established against the registry. Null means never checked.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
@@ -132,6 +133,7 @@ See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 ## 🔄 Update policy
 
 - This repository is refreshed regularly from the same export pipeline used for public dataset repos.
+- The snapshot date above is when this file was written, not when each row was checked. Read `status_verified_at` for that: a name whose status was last established months ago is exported with its real date rather than the snapshot's.
 - The README count targets the live catalog count from the public landing response when available.
 - The CSV and JSON files contain the public extract only and may not match the full live catalog size.
 - Stable historical references should be published via GitHub Releases outside this repository snapshot.
@@ -142,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .MOTORCYCLES One-Word Domains*. Version 2026-09-15. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .MOTORCYCLES One-Word Domains*. Version 2026-09-16. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
