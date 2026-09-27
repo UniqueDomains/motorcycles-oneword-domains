@@ -1,10 +1,10 @@
-# Available .MOTORCYCLES One-Word Domains (23,248)
+# Available .MOTORCYCLES One-Word Domains (23,618)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-23%2C248%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-23%2C618%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,9 +12,9 @@
 Daily-updated public extract of available and resale .motorcycles one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **23,248 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **23,618 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 23,248 domains · **Median ask:** $98.81 · **High-demand under $2,500:** 39
+**Public extract:** 1,000 rows · **Live catalog:** 23,618 domains · **Median ask:** $99.49 · **High-demand under $2,500:** 41
 
 **Last updated:** 2026-09-27
 **Canonical page:** `https://unique.domains/domains/tld/motorcycles`
@@ -77,13 +77,13 @@ print(df.head())
 | agents.motorcycles | resell    | —         | —             | high           | medium | 6      | Spaceship, Inc. |
 | law.motorcycles    | premium   | $845      | $15.73        | high           | medium | 3      | namecheap       |
 | ceo.motorcycles    | available | $1.99     | $17.29        | high           | low    | 3      | namesilo        |
-| tag.motorcycles    | premium   | $2,600    | $2,600        | high           | medium | 3      | namecheap       |
-| doc.motorcycles    | available | $1.99     | $17.29        | high           | medium | 3      | namesilo        |
 | acne.motorcycles   | premium   | $812.50   | —             | high           | low    | 4      | name.com        |
-| era.motorcycles    | available | $1.99     | $15.75        | high           | medium | 3      | namesilo        |
+| doc.motorcycles    | available | $1.99     | $17.29        | high           | medium | 3      | namesilo        |
 | arch.motorcycles   | premium   | $2,660    | $2,660        | high           | medium | 4      | namesilo        |
-| etc.motorcycles    | available | $1.99     | $15.75        | high           | low    | 3      | namesilo        |
+| era.motorcycles    | available | $1.99     | $15.75        | high           | medium | 3      | namesilo        |
 | baby.motorcycles   | premium   | $812.50   | —             | high           | low    | 4      | name.com        |
+| etc.motorcycles    | available | $1.99     | $15.75        | high           | low    | 3      | namesilo        |
+| best.motorcycles   | premium   | $2,600    | $2,600        | high           | medium | 4      | namecheap       |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,9 +93,9 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                             |
 | ----------------------- | ------------------------------------------ |
-| 1,000-row public sample | 23,248 live domains                        |
+| 1,000-row public sample | 23,618 live domains                        |
 | Static CSV / JSON       | live search and daily refresh              |
-| Basic exported fields   | 39 high-demand names under $2,500          |
+| Basic exported fields   | 41 high-demand names under $2,500          |
 | No persistence          | Radar, saved search, and alerts            |
 | No founder workflow     | Project, shortlist, and next-step workflow |
 
