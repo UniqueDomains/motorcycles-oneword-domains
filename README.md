@@ -1,10 +1,10 @@
-# Available .MOTORCYCLES One-Word Domains (26,494)
+# Available .MOTORCYCLES One-Word Domains (28,778)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-26%2C494%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-28%2C778%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,11 +12,11 @@
 Daily-updated public extract of available and resale .motorcycles one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **26,494 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **28,778 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 26,494 domains · **Median ask:** $97.97 · **High-demand under $2,500:** 63
+**Public extract:** 1,000 rows · **Live catalog:** 28,778 domains · **Median ask:** $92.61 · **High-demand under $2,500:** 81
 
-**Last updated:** 2026-09-29
+**Last updated:** 2026-09-30
 **Canonical page:** `https://unique.domains/domains/tld/motorcycles`
 **Best for:** founders, investors, studios
 
@@ -72,18 +72,18 @@ print(df.head())
 | cat.motorcycles    | premium   | $2,070.20 | $2,070.20     | high           | high   | 3      | spaceship       |
 | arp.motorcycles    | available | $1.99     | $17.29        | high           | low    | 3      | namesilo        |
 | bsa.motorcycles    | resell    | —         | —             | high           | low    | 3      | —               |
-| law.motorcycles    | premium   | $845      | $15.73        | high           | medium | 3      | namecheap       |
-| azo.motorcycles    | available | $1.80     | $19.98        | high           | low    | 3      | namecheap       |
-| rome.motorcycles   | resell    | —         | —             | high           | low    | 4      | Porkbun LLC     |
 | arch.motorcycles   | premium   | $2,660    | $2,660        | high           | medium | 4      | namesilo        |
-| ceo.motorcycles    | available | $1.99     | $17.29        | high           | low    | 3      | namesilo        |
-| agents.motorcycles | resell    | —         | —             | high           | medium | 6      | Spaceship, Inc. |
+| asc.motorcycles    | available | $1.99     | $17.29        | high           | low    | 3      | namesilo        |
+| rome.motorcycles   | resell    | —         | —             | high           | low    | 4      | Porkbun LLC     |
 | best.motorcycles   | premium   | $2,600    | $2,600        | high           | medium | 4      | namecheap       |
-| doc.motorcycles    | available | $1.99     | $17.29        | high           | medium | 3      | namesilo        |
+| azo.motorcycles    | available | $1.80     | $19.98        | high           | low    | 3      | namecheap       |
+| agents.motorcycles | resell    | —         | —             | high           | medium | 6      | Spaceship, Inc. |
 | body.motorcycles   | premium   | $2,600    | $2,600        | high           | low    | 4      | namecheap       |
-| eeg.motorcycles    | available | $1.24     | $13.97        | high           | low    | 3      | spaceship       |
-| echo.motorcycles   | premium   | $2,500    | —             | high           | medium | 4      | name.com        |
-| era.motorcycles    | available | $1.99     | $15.75        | high           | medium | 3      | namesilo        |
+| ceo.motorcycles    | available | $1.99     | $17.29        | high           | low    | 3      | namesilo        |
+| echo.motorcycles   | premium   | $2,070.20 | $2,070.20     | high           | medium | 4      | spaceship       |
+| coa.motorcycles    | available | $1.24     | $13.97        | high           | low    | 3      | spaceship       |
+| hugo.motorcycles   | premium   | $2,660    | $2,660        | high           | high   | 4      | namesilo        |
+| doc.motorcycles    | available | $1.99     | $17.29        | high           | medium | 3      | namesilo        |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,9 +93,9 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                             |
 | ----------------------- | ------------------------------------------ |
-| 1,000-row public sample | 26,494 live domains                        |
+| 1,000-row public sample | 28,778 live domains                        |
 | Static CSV / JSON       | live search and daily refresh              |
-| Basic exported fields   | 63 high-demand names under $2,500          |
+| Basic exported fields   | 81 high-demand names under $2,500          |
 | No persistence          | Radar, saved search, and alerts            |
 | No founder workflow     | Project, shortlist, and next-step workflow |
 
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .MOTORCYCLES One-Word Domains*. Version 2026-09-29. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .MOTORCYCLES One-Word Domains*. Version 2026-09-30. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
